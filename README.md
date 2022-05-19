@@ -1,4 +1,6 @@
-# html-css-js-project-boilerplate:-  Project description in the text box below:-
+# html-css-js-project-boilerplate:-  
+Project description in the text box below:-
+
 
  1-WHY this project was chosen (what use case does it solve)-
        I'm choseing this website for learning purpose 
@@ -78,7 +80,7 @@
             -->Using DOM-->  
             The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
 
-            
+
          3-WHAT features, technical things you had implemented
                I'm using Fornt awesome properties for icons or text
                in this project we used localStorage on browser to store login data 
