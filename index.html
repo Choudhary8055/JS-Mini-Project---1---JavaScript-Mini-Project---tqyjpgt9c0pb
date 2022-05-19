@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <script
+      src="https://kit.fontawesome.com/0360aa8a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
+  <body>
+    <div class="container">
+      <h1>Login to BuyOneGram</h1>
+      <div class="box">
+        <i class="fa fa-envelope" style="font-size: 24px"></i>
+
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+      </div>
+      <div class="box">
+        <i class="fa fa-lock" style="font-size: 25px"></i>
+
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Your Password"
+        />
+      </div>
+      <button class="btn" onclick="loginFn()">Sign In</button>
+    </div>
+    <div class="sign">
+      <button class="btn1"><a href="home.html">Sign up</a></button>
+    </div>
+
+    <script>
+      function loginFn() {
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+
+        let email01 = localStorage.getItem("email1");
+        let password01 = localStorage.getItem("password1");
+
+        if (email === email01 && password === password01) {
+          alert("Login Succesful....");
+        } else {
+          alert("Login email and Password wrong....");
+        }
+      }
+    </script>
+  </body>
+</html>

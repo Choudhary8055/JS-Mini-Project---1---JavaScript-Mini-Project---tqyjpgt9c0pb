@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0360aa8a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container_box">
+      <h1>Sign Up to BuyOneGram</h1>
+      <div class="sign_box">
+        <form id="form">
+          <label for="name" class="form-lebel">Full Name</label>
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value=""
+              placeholder="Enter your full name"
+              required
+              minlength="6"
+              maxlength="100"
+            />
+          </div>
+
+          <label for="email" class="form-lebel">Email</label>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value=""
+              placeholder="email@address.com"
+              required
+              size="50"
+            />
+          </div>
+
+          <label for="phone" class="form-lebel">Phone Number</label>
+          <div class="form-group">
+            <input
+              type="tel"
+              name="number"
+              id="phone"
+              value=""
+              placeholder="+91-0123456789"
+              required
+              size="50"
+            />
+          </div>
+
+          <label for="password" class="form-lebel">Password</label>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              value=""
+              placeholder="Create Password (Min. 8 character)"
+              required
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+              title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+            />
+          </div>
+
+          <label for="password" class="form-lebel">Confirm Password</label>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              id="password2"
+              value=""
+              placeholder="Confirm password"
+              size="100"
+              required
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            />
+          </div>
+
+          <button onclick="addData()">submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="sign">
+      <button class="btn1"><a href="index.html">Sign In</a></button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

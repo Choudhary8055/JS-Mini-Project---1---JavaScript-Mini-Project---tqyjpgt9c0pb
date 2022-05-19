@@ -1,0 +1,229 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+background: url(bg.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+.container{
+
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+
+}
+.container h1{
+font-family: 'Heebo', sans-serif;
+width: 100%;
+display: inline-block;
+font-size: 32px;
+border-bottom: 5px solid purple;
+margin-bottom: 15px;
+padding: 13px 0;
+
+}
+.box{
+width: 100%;
+margin: 22px 0px;
+/* border: 2px solid purple; */
+border-bottom:  2px solid rgb(242, 206, 242);
+}
+.box input{
+    background: none;
+width: 75%;
+/* margin: 2px 0px; */
+padding: 5px 10px;
+font-size: 20px;
+border: none;
+outline: none;
+color: white;
+
+}
+.box i{
+    padding: 0 12px;
+    width: 25px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    /* align-items: center; */
+    text-align: center;
+
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple;
+    background: white;
+}
+
+
+
+/* Sign-up form css */
+.container_box{
+      border: 5px solid #6a4f6a;
+    background-color: rgba(59, 45, 66, 0.691);
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    width: 38%; 
+}
+
+.container_box h1{
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    display: inline-block;
+    font-size: 32px;
+    border-bottom: 5px solid #6a4f6a;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    /* align-items: center; */
+    text-align: center;
+    
+    }
+    .form-group{
+        width: 100%;
+        margin: 22px 0px;
+        /* border: 2px solid purple; */
+        border-bottom:  2px solid purple;
+        }
+    .form-lebel{
+        width: 100%;
+        margin: 22px 10px;
+        padding: 9px 6px;
+        font-size: 20px;
+        /* border: 2px solid purple; */
+        border-bottom:  2px solid purple;
+        }
+    .form-group input{
+            background: none;
+        width: 100%;
+        margin: 2px 0px;
+        padding: 5px 0px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        color: white;
+        
+        }
+        .form-group ::placeholder{
+            color: rgb(157, 142, 152);
+        }  
+        .form-group.success input {
+            border-color: #2ecc71;
+        }
+        
+        .form-group.error input {
+            border-color: red;
+        }
+       
+   .sign {
+            display: block;
+            /* border: 2px solid rgb(228, 35, 147); */
+            width: 8%;
+    
+            margin-right: 10px;
+            float: right;
+
+        }
+      
+        .message-container {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 90%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            color: black;
+          }
+          button {
+            cursor: pointer;
+            color: white;
+            background:#b012b2;
+            border: none;
+            border-radius: 25px;
+            height: 50px;
+            width: 100%;
+            font-family: Sen, sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            margin-top: 5px;
+          }
+          button:hover {
+            filter: brightness(200%);
+            background: #12182c;
+          }
+          
+          button:focus {
+            outline: none;
+          }
+          .btn1{
+            color: white;
+            cursor: pointer;
+            outline: none;
+    
+            margin: 12px 0;
+    
+            border: 2px solid purple;
+            border-radius: 10px;
+            font-size: 20px;
+            background: none;
+            font-weight: bold;
+    
+    
+
+          }
+          .dontAcc{
+              color: #b012b2;
+            
+            width: 26%;
+            border: 2px solid purple;
+            font-size: 20px;
+            margin-left: 489px;
+            
+
+          }
+       .dontAcc h1{
+           margin-right: 30px;
+       }
+
+         
+       @media only screen and (max-width:700px) and (min-width:0px) {
+        body {
+            display: block;
+            background-color: blueviolet;
+        }
+
+        .btn1{
+            /* padding: 20px 0px; */
+            font-size: 15px;
+            width: auto;
+        }
+
+        .container{
+            width: min-content;
+        }
+        .container_box{
+            font-size: 20px;
+            width: min-content;
+        
+        }
+
+
+    }
